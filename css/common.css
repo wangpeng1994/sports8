@@ -1,0 +1,49 @@
+/*全局样式*/
+body {
+	font-size:14px;
+	font-family:Microsoft YaHei,"微软雅黑";
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	padding: 0;
+	margin: 0;
+}
+table,td,tr,th {
+	font-size:12px;
+}
+li,ol,ul {
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+.clearBoth { 
+	clear:both;
+}
+#top {  
+	margin:0 auto;
+	width:1024px; 
+	height:83px;
+	background:url(../img/head.gif);
+}
+ul { 
+	padding-top:20px;
+}
+li { 
+	float:left;
+	margin-right:37px;
+	color:#FFF;
+	border-left:2px solid #FFF; 
+	padding-left:30px;
+}
+#li1 {
+	margin-left:390px;
+	border-left:none;
+}
+a { 
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+	font-size:18px; 
+	height:35px;
+	line-height:35px;
+}

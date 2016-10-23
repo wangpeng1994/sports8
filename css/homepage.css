@@ -1,0 +1,146 @@
+#li1 a {
+	text-align:center;
+	width:50px;
+	background:rgb(20, 161, 67);
+	border:1px solid rgb(0, 153, 0);
+	border-radius: 5px;
+}
+#main #download {
+	margin:0 auto;
+	width:1024px;
+	height:417px;
+	background:url(../img/download.gif) no-repeat;
+	position:relative;
+}
+#main #download p a {
+	width: 220px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    display: block;
+    border: 1px solid #417505;
+    background: #b8e986;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #417505;   
+}
+#main #download .iPhone a  {
+	position: absolute; 
+	top: 200px;
+	left: 65px;
+}
+#main #download .android a {
+	position: absolute; 
+	top: 285px;
+	left: 65px;
+}
+#main #download .img2D {
+	position: absolute; 
+	top: 200px;
+	left: 305px;
+}
+#main #body1 {
+	margin: 40px auto;
+}
+#main p {
+	cursor: default;
+    font-size: 13px;
+    height: 24px;
+    line-height: 24px;
+    color: #4a617b;
+    text-align: center;
+}
+/*图片向左滚动*/
+#photo {
+	background: #FFF;
+	overflow:hidden;
+	width: 980px;
+	height:281px;
+	margin:0 auto;
+}
+#inPhoto {
+	float: left;
+	width: 800%;
+	margin:30px;
+}
+#demo1 {
+	width:980px;
+	height:281px;
+	float: left;
+}
+#demo2 {
+	width:980px;
+	height:281px;
+	float: left;
+}
+
+#photo a {
+	width:190px;
+	height:281px;
+	display:block;
+	float:left;
+	padding-left:6px;
+}
+
+#main #body2 {
+}
+#display {
+	margin:30px auto;
+	width:980px;
+	height:174px;
+	position:relative;
+}
+#display a {
+	display:block;
+	float:left;
+	margin-right:6px;
+}
+#display a.pos {
+	position:absolute;
+}
+.img1 {
+	bottom:0;
+}
+.img2 {
+	bottom:0;
+	left:240px;
+}
+.img3 {
+	bottom:-102px;
+	left:359px;
+}
+.img4 {
+	bottom:-103px;
+	left:500px;
+}
+.img5 {
+	bottom:0px;
+	left:722px;
+}
+.img6 {
+	bottom:0;
+	right:0;
+}
+footer {
+	width:1024px;
+	margin:0 auto 40px auto;
+	position:relative; 
+	bottom:-215px;
+	border-top:4px solid #8ED72B;
+}
+footer p {
+    -cursor: default;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+footer a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    color:#4a4a4a;
+}
